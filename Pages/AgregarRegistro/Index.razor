@@ -1,0 +1,123 @@
+﻿@page "/agregarRegistro"
+
+@inject NavigationManager Nav
+@inject IJSRuntime Jsx
+
+<PageTitle>Accidentes</PageTitle>
+
+<h2 style="margin-top: 50px;">Registro de Accidentes</h2>
+
+
+<EditForm Model="registro" OnValidSubmit="EnviarDatos">
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+
+                        <div class="form-floating mb-3">
+                            <input type="text" @bind-value="registro.Descripcion" class="form-control" placeholder="" >
+                            <label for="floatingPassword">Descripcion</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="number" @bind-value="registro.Costo" class="form-control" placeholder="" >
+                            <label for="floatingPassword">Costo económico</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="number" @bind-value="registro.Muertos" class="form-control" placeholder="" >
+                            <label for="floatingPassword">Muertos</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="number" @bind-value="registro.Heridos" class="form-control" placeholder="" >
+                            <label for="floatingPassword">Heridos</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="number" @bind-value="registro.Vehiculos" class="form-control" placeholder="" >
+                            <label for="floatingPassword">Cantidad de Vehículos</label>
+                        </div>
+
+                        @if(errores.Count > 0)
+                        {
+                            <div class="alert alert-danger">
+                            <ul>
+                                @foreach(var error in errores)
+                                {
+                                    <li>@error</li>
+                                }
+                            </ul>
+                            </div>
+                        }
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</EditForm>
+
+@code
+{
+
+    Datos registro = new Datos(); 
+
+    List<string> errores = new List<string>();
+
+    void EnviarDatos()
+    {
+
+        errores.Clear();
+
+        if(registro.Descripcion.Length < 3)
+        {
+            errores.Add("Debe contener una descripción");
+        }
+
+        if(registro.Costo == 0)
+        {
+            errores.Add("Debe ingresar el costo del accidente");
+        }
+
+        if(registro.Vehiculos == 0)
+        {
+            errores.Add("Debe ingresar la cantidad de vehiculos involucrados");
+        }
+
+        Console.WriteLine(errores.Count());
+
+        if(errores.Count() > 0)
+        {
+            return;
+        }
+
+        registro.Id = Guid.NewGuid().ToString();
+
+        var datos = Newtonsoft.Json.JsonConvert.SerializeObject(registro);
+
+        //verificación
+
+        if(!Directory.Exists("datax"))
+        {
+            Directory.CreateDirectory("datax");   
+        }
+
+        // guardar el archivo
+
+        File.WriteAllText($"datax/{registro.Id}.Json", datos);
+
+        Jsx.InvokeVoidAsync("alert","Se envió el formulario");
+
+        Nav.NavigateTo("/", true);
+
+    }
+
+
+
+}

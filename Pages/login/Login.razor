@@ -1,0 +1,79 @@
+@page "/"
+
+@layout BlankLayout 
+@inject NavigationManager Nav
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow-sm">
+                <div class="card-body">
+
+
+                    <div class="form-floating mb-3" >
+                            <input type="text" @bind-value="accidente.UserName" class="form-control" id="user" placeholder="" >
+                        <label for="floatingPassword">Nombre de usuario</label>
+                    </div>
+
+                    <div class="form-floating mb-3" >
+                        <input type="password" @bind-value="accidente.Password" class="form-control" id="password" placeholder="" >
+                        <label for="floatingPassword">Contraseña</label>
+                    </div>
+
+                </div>
+
+                <button class="btn btn-primary" id="confirm_button" style="margin: 10px;" @onclick="()=>IniciarSesion()">Iniciar Sesion</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+@code
+{
+
+    Accidente accidente = new Accidente();
+
+    List<Accidente> accidentes = new List<Accidente>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        if(!Directory.Exists("accidentes"))
+        {
+           return;   
+        }
+
+        var files = Directory.GetFiles("accidentes");
+
+        foreach(var file in files)
+        {
+
+            var content = await File.ReadAllTextAsync(file);
+
+            var abogado = Newtonsoft.Json.JsonConvert.DeserializeObject<Accidente>(content);
+            
+            accidentes.Add(abogado);
+        }
+
+    }  
+
+    void IniciarSesion()
+    {   
+        foreach(var user in accidentes)
+        {
+            if(user.UserName == accidente.UserName && user.Password == accidente.Password)
+            {
+                Nav.NavigateTo("/inicio");
+                return; 
+            }
+        }
+
+        // Si llegamos aquí, significa que las credenciales son inválidas
+        Console.WriteLine("Credenciales inválidas"); // Este mensaje se imprimirá en la consola del navegador
+    }
+}
+
+

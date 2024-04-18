@@ -1,0 +1,60 @@
+@page "/inicio"
+
+<PageTitle>Inicio</PageTitle>
+
+<h2 style="margin-top: 50px;">Inicio</h2>
+
+    <ul style="margin-top: 50px;">
+
+        <li><p>Total accidentes registrados: @registros.Count()</p></li>
+        <li><p>Total vehículos involucrados: @foreach(var registro in registros)
+            {
+                contador[0] = contador[0] + registro.Vehiculos;
+            } 
+            @contador[0]</p></li>
+        <li><p>Cantidad de muertos: @foreach(var registro in registros)
+            {
+                if(registro.Muertos != null){contador[1] += registro.Muertos.Value;}
+            } 
+            @contador[1]</p></li>
+        <li><p>Cantidad de heridos: @foreach(var registro in registros)
+            {
+                if(registro.Heridos != null){contador[2] += registro.Heridos.Value;}
+            } 
+            @contador[2]</p></li>
+
+    </ul>
+
+@code
+{
+    Datos datos = new Datos();
+    
+    int[] contador = new int[4];
+
+
+    List<Datos> registros = new List<Datos>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        if(!Directory.Exists("datax"))
+        {
+           return;   
+        }
+
+        var files = Directory.GetFiles("datax");
+
+        foreach(var file in files)
+        {
+
+            var content = await File.ReadAllTextAsync(file);
+
+            var registro = Newtonsoft.Json.JsonConvert.DeserializeObject<Datos>(content);
+            
+            registros.Add(registro);
+        }
+
+    }
+
+}

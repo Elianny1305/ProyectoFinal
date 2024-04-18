@@ -1,0 +1,46 @@
+@page "/datos/{Id}"
+
+<div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+
+                        <ul>
+
+                            <li><p>Fecha: @datos.Fecha</p></li>
+                            <li><p>Descripción: @datos.Descripcion</p></li>
+                            <li><p>Costo: @datos.Costo  </p></li>
+                            <li><p>Cantidad de muertos: @if(@datos.Muertos == null){<span>0</span>}else{@datos.Muertos}</p></li>
+                            <li><p>Cantidad de heridos: @if(@datos.Heridos == null){<span>0</span>}else{@datos.Heridos}</p></li>
+                            <li>Vehiculos involucrados: @datos.Vehiculos</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@code
+{
+
+    [Parameter]
+    public string Id {get; set;} = "No se ha encontrado el Id";
+
+    Datos datos = new Datos();
+
+     protected override void OnInitialized()
+    {
+        if(Directory.Exists("datax"))
+        {
+            if(File.Exists("datax/" + Id + ".json"))
+            {
+                string json = File.ReadAllText("datax/" + Id + ".json");
+                datos = Newtonsoft.Json.JsonConvert.DeserializeObject<Datos>(json);
+            }
+        }
+    }
+
+}

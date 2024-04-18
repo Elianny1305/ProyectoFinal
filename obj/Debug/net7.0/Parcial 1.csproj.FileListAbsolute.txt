@@ -1,0 +1,79 @@
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.csproj.AssemblyReference.cache
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.AssemblyInfoInputs.cache
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.AssemblyInfo.cs
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.csproj.CoreCompileInputs.cache
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.RazorAssemblyInfo.cache
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.RazorAssemblyInfo.cs
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\appsettings.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Parcial 1.staticwebassets.runtime.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Parcial 1.exe
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Parcial 1.deps.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Parcial 1.runtimeconfig.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Parcial 1.dll
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Parcial 1.pdb
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.Parcial 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.build.Parcial 1.props
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Parcial 1.props
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Parcial 1.props
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\scopedcss\bundle\Parcial 1.styles.css
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\scopedcss\projectbundle\Parcial 1.bundle.scp.css
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.dll
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\refint\Parcial 1.dll
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.pdb
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.genruntimeconfig.cache
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\ref\Parcial 1.dll
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\obj\Debug\net7.0\Parcial 1.csproj.CopyComplete
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\datax\08794d3a-0639-4861-b0d8-5c3af96ec459.Json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\datax\99918880-872d-4d66-ac6f-25ba07dc6024.Json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\datax\f9a3098d-b4d7-44eb-a44d-ce50633458d2.Json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\datax\d542d5fe-e2d6-4b1e-9452-cce68beece67.Json
+C:\Users\MSI\OneDrive\Escritorio\Tareas 4to Cuatrimestre\Programación Web\Parcial 1\bin\Debug\net7.0\datax\3c53b7d3-c89c-4bf5-a8f7-b90165efddfe.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\appsettings.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\datax\08794d3a-0639-4861-b0d8-5c3af96ec459.Json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\datax\3c53b7d3-c89c-4bf5-a8f7-b90165efddfe.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\datax\99918880-872d-4d66-ac6f-25ba07dc6024.Json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\datax\d542d5fe-e2d6-4b1e-9452-cce68beece67.Json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\datax\f9a3098d-b4d7-44eb-a44d-ce50633458d2.Json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Parcial 1.staticwebassets.runtime.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Parcial 1.exe
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Parcial 1.deps.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Parcial 1.runtimeconfig.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Parcial 1.dll
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Parcial 1.pdb
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.csproj.AssemblyReference.cache
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.AssemblyInfoInputs.cache
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.AssemblyInfo.cs
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.csproj.CoreCompileInputs.cache
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.RazorAssemblyInfo.cache
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.RazorAssemblyInfo.cs
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.Parcial 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.build.Parcial 1.props
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Parcial 1.props
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Parcial 1.props
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\scopedcss\bundle\Parcial 1.styles.css
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\scopedcss\projectbundle\Parcial 1.bundle.scp.css
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.csproj.CopyComplete
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.dll
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\refint\Parcial 1.dll
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.pdb
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\Parcial 1.genruntimeconfig.cache
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\obj\Debug\net7.0\ref\Parcial 1.dll
+C:\Users\Elianny\Python\Parcial 1-20240416T024228Z-001\Parcial 1-20240416T024228Z-001\Parcial 1\bin\Debug\net7.0\abogados\572c18eb-012e-430a-ab63-cc64e4577aad.Json
